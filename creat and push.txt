@@ -14,4 +14,6 @@ git add *
 git commit -m "test"
 git push
 
-
+//	clone repository
+directory project
+git clone https://github.com/agoes123/test.git
