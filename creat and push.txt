@@ -1,4 +1,5 @@
 //	buat repositori baru
+git remote add origin https://github.com/agoes123/test.git
 echo "test 1" >> README.md
 git init
 git add *
@@ -8,8 +9,9 @@ git remote add origin https://github.com/agoes123/test.git
 git push -u origin main
 
 //	push repository
-git remote add origin https://github.com/agoes123/test.git
-git branch -M main
-git push -u origin main
+git remote --v
+git add *
+git commit -m "test"
+git push
 
 
